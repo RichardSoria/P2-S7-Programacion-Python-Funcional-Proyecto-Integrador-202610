@@ -79,6 +79,7 @@ Siga estos pasos para ejecutar el proyecto en un entorno local:
 Una vez configurada la base de datos y el archivo `config.json`, ejecute el archivo `main.py` desde la terminal:
 ```bash
 py main.py
+```
 
 Aparecerá el menú interactivo para empezar a gestionar los catequizados.
 
@@ -101,3 +102,4 @@ Aparecerá el menú interactivo para empezar a gestionar los catequizados.
 * **Script-Stored-Procedures-CRUD-Catequizado.sql:** (SQL) Contiene los 5 Stored Procedures del CRUD para la tabla `Catequizado`.
 
 * **P2-S6-CreacionLogins...sql:** (SQL) Script de seguridad para crear el login y usuario `pythonconnectCatequesis` que usa la app.
+
