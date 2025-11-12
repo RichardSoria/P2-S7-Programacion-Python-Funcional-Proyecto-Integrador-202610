@@ -1,7 +1,8 @@
 from datetime import datetime
-# Importamos tu clase "Motor"
+# Importamos la clase GestorCatequizado
 from Catequizado.gestorCatequizado import GestorCatequizado
 
+# Clase que maneja las operaciones del menú para catequizados
 class OperacionesCatequizado:
     
     def __init__(self):
@@ -16,7 +17,8 @@ class OperacionesCatequizado:
         print("5. Listar todos los catequizados")
         print("6. Salir")
         return input("Seleccione una opción: ")
-
+    
+    # Método principal para iniciar las operaciones
     def iniciar_operaciones(self):
         while True:
             opcion = self.mostrar_menu()
